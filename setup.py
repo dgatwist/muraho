@@ -9,6 +9,7 @@ from setuptools import Command, find_packages, setup
 NAME = "muraho"
 DESCRIPTION = "A Modular Pentest Framework"
 GIT_URL = "https://github.com/dgatwist/muraho"
+URL = ""
 PROJECT_URLS = {
     "Packages": GIT_URL + "/blob/main/PACKAGES.md",
     "Changelog": GIT_URL + "/blob/main/CHANGELOG.md",
