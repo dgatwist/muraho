@@ -6,7 +6,7 @@ from rich.traceback import install
 install()
 
 # Console Setup
-fsociety_theme = Theme(
+muraho_theme = Theme(
     {
         "command": "black on white",
         "warning": "bold yellow",
