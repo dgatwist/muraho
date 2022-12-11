@@ -169,7 +169,7 @@ def interactive():
 
 
 def main():
-    parser = argparse.ArgumentParser(description="A Penetration Testing Framework")
+    parser = argparse.ArgumentParser(description="A Pentest Framework")
     parser.add_argument("-i", "--info", action="store_true", help="gets muraho info")
     parser.add_argument("-s", "--suggest", action="store_true", help="suggest a tool")
 
