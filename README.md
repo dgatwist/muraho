@@ -18,14 +18,9 @@ A Modular Pentest Framework
 ## Install
 
 ```bash
-pip install muraho
-```
+git clone htpps://github.com/muraho.git
+sudo python setup.py install
 
-## Update
-
-```bash
-pip install --upgrade muraho
-```
 
 ## Usage
 
@@ -41,11 +36,7 @@ optional arguments:
 ```
 
 
-## Developing
 
-```bash
-git clone https://github.com/dgatwist/muraho.git
-pip install -e ".[dev]"
 ```
 
 ## License
