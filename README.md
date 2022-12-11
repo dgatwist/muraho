@@ -20,7 +20,7 @@ A Modular Pentest Framework
 ```bash
 git clone htpps://github.com/muraho.git
 sudo python setup.py install
-
+```
 
 ## Usage
 
@@ -31,7 +31,7 @@ A Pentest Framework
 
 optional arguments:
   -h, --help     show this help message and exit
-  -i, --info     gets fsociety info
+  -i, --info     gets muraho info
   -s, --suggest  suggest a tool
 ```
 
