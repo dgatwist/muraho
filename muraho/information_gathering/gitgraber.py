@@ -1,6 +1,6 @@
 import os
 
-from nurahocore.menu import confirm, set_readline
+from muraho.core.menu import confirm, set_readline
 from muraho.core.repo import GitHubRepo
 
 

@@ -6,10 +6,9 @@ from .hydrarecon import hydrarecon
 from .s3scanner import s3scanner
 from .sherlock import sherlock
 from .sqlmap import sqlmap
-from .striker import striker
 from .sublist3r import sublist3r
 
-__tools__ = [sqlmap, striker, sublist3r, sherlock, s3scanner, gitgraber, hydrarecon]
+__tools__ = [sqlmap, sublist3r, sherlock, s3scanner, gitgraber, hydrarecon]
 
 
 def cli():

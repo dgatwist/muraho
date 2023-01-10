@@ -19,9 +19,9 @@ class XsstrikeRepo(GitHubRepo):
         if confirm("Do you want to crawl?"):
             args.append("--crawl")
         if confirm("Do you want to find hidden parameters?"):
-            args.append("--params")
+            args.append("--p")
         args_str = " ".join(args)
-        return os.system(f"python3 xsstrike.py --url {user_url} {args_str}")
+        return os.system(f"python3 xsstrike.py -u {user_url} {args_str}")
 
 
 xsstrike = XsstrikeRepo()
